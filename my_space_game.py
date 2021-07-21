@@ -89,7 +89,7 @@ def draw():
     # show GAME OVER
     show_game_over = "GAME OVER"
     if score <= SCORE_END:
-        BACKGROUNG_IMG = (0, 0, 0)
+##        BACKGROUNG_IMG = (0, 0, 0)
         screen.draw.text(show_game_over, fontsize=60, center=(WIDTH/2, HEIGHT/2), color="red", ocolor='white', owidth=0.5)
 def updatePlayer():
     # detect player input
